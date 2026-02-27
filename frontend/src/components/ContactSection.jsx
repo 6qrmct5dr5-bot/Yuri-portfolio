@@ -80,7 +80,7 @@ const ContactSection = () => {
             </div>
 
             <div>
-              <label htmlFor="email" className="block text-sm uppercase tracking-wider mb-2 text-[#d4af37]">
+              <label htmlFor="email" className="block text-sm uppercase tracking-wider mb-2 text-white">
                 Email
               </label>
               <Input
