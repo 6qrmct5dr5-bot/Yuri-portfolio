@@ -47,9 +47,16 @@ const HeroSection = () => {
         </div>
 
         <div className="mt-16 animate-fade-in-up" style={{ animationDelay: '1.2s' }}>
+          <p className="text-xl md:text-2xl text-white mb-8 italic">
+            Kad te izabere, pogled više nikada nije isti.
+          </p>
+          <p className="text-2xl md:text-3xl text-[#d4af37] font-light tracking-wider">
+            Jesi li odabran?
+          </p>
+          
           <button
             onClick={scrollToAbout}
-            className="group inline-flex flex-col items-center space-y-2 hover:scale-110 transition-transform duration-300"
+            className="group inline-flex flex-col items-center space-y-2 hover:scale-110 transition-transform duration-300 mt-12"
           >
             <span className="text-sm tracking-widest uppercase text-[#d4af37]">
               Otkrij Više
