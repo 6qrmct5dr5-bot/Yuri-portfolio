@@ -94,7 +94,7 @@ const ExhibitionsSection = () => {
 
         {/* Quote */}
         <div className="mt-16 text-center p-8 bg-gradient-to-r from-transparent via-[#d4af37]/5 to-transparent border-y border-[#d4af37]/20">
-          <p className="text-xl md:text-2xl font-light italic text-[#d4af37]">
+          <p className="text-xl md:text-2xl font-light italic text-white">
             "Njegovi susreti s umjetnošću nisu otvoreni za sve.<br />
             Samo oni koji osjete poziv mogu ući."
           </p>
