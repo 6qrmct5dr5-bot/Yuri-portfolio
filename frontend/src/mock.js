@@ -15,23 +15,16 @@ export const firstWork = {
 export const exhibitions = [
   {
     id: 1,
-    title: "Izvan Vidljivog",
+    title: "Inauguracija: Djelo 1/100",
     location: "Privatna Galerija, Venecija",
     year: 2024,
-    description: "Ekskluzivna izložba za odabrane kolekcionare."
+    description: "Premijerno predstavljanje prvog djela koje otvara legendarnu seriju. Samo 12 odabranih svjedočilo je početku."
   },
   {
     id: 2,
-    title: "Zlatni Prah",
-    location: "Tajanstvena Lokacija, Pariz",
-    year: 2023,
-    description: "Samo 30 pozvanih je moglo svjedočiti."
-  },
-  {
-    id: 3,
-    title: "100 Duša",
-    location: "Privatna Kolekcija, Beč",
-    year: 2022,
-    description: "Premijera koncepta ograničene kolekcije."
+    title: "Tajna Ceremonija",
+    location: "Nepoznata Lokacija",
+    year: 2024,
+    description: "Mistični ritual otvaranja serije od 100 duša."
   }
 ];
