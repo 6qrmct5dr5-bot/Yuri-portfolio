@@ -70,8 +70,8 @@ const HeroSection = () => {
             </p>
             <div className="space-y-2 text-sm text-white">
               <div className="flex justify-between items-center border-b border-[#d4af37]/20 pb-2">
-                <span>Stvoreno:</span>
-                <span className="text-[#d4af37]">1 djelo</span>
+                <span>Trenutno ekskluzivno dostupno:</span>
+                <span className="text-[#d4af37]">1, prvo djelo</span>
               </div>
               <div className="flex justify-between items-center border-b border-[#d4af37]/20 pb-2">
                 <span>Preostalo:</span>
