@@ -52,7 +52,7 @@ const HeroSection = () => {
             <Sparkles className="w-6 h-6 text-[#d4af37] flex-shrink-0 mt-1" />
             <div>
               <h3 className="text-2xl font-['Playfair_Display'] text-white mb-3">
-                Živa Platna
+                Magični Aparatus u Obliku Slike - Alkemija Pretočena u Kompoziciju
               </h3>
               <p className="text-base text-white leading-relaxed">
                 Njegove površine dišu. Pod svjetlom mijenjaju ton, reagiraju na pogled. 
