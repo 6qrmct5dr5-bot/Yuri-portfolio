@@ -52,7 +52,7 @@ const ContactSection = () => {
 
       <div className="relative z-10 max-w-4xl mx-auto w-full">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-6xl font-light tracking-widest text-[#d4af37] font-['Playfair_Display'] mb-6">
+          <h2 className="text-4xl md:text-6xl font-light tracking-widest text-white font-['Playfair_Display'] mb-6">
             KONTAKT
           </h2>
           <div className="h-px w-32 bg-[#d4af37] mx-auto mb-8"></div>
