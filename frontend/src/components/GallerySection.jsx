@@ -95,31 +95,31 @@ const GallerySection = () => {
               <div className="flex items-start space-x-3 pb-4 border-b border-[#d4af37]/20">
                 <Calendar className="w-5 h-5 text-[#d4af37] mt-1 flex-shrink-0" />
                 <div className="flex-1">
-                  <p className="text-sm opacity-60 mb-1">Stvoreno</p>
-                  <p className="text-lg">{firstWork.created}</p>
+                  <p className="text-sm text-white/60 mb-1">Stvoreno</p>
+                  <p className="text-lg text-white">{firstWork.created}</p>
                 </div>
               </div>
 
               <div className="flex items-start space-x-3 pb-4 border-b border-[#d4af37]/20">
                 <Palette className="w-5 h-5 text-[#d4af37] mt-1 flex-shrink-0" />
                 <div className="flex-1">
-                  <p className="text-sm opacity-60 mb-1">Medij</p>
-                  <p className="text-lg">{firstWork.medium}</p>
+                  <p className="text-sm text-white/60 mb-1">Medij</p>
+                  <p className="text-lg text-white">{firstWork.medium}</p>
                 </div>
               </div>
 
               <div className="flex items-start space-x-3 pb-4 border-b border-[#d4af37]/20">
                 <Ruler className="w-5 h-5 text-[#d4af37] mt-1 flex-shrink-0" />
                 <div className="flex-1">
-                  <p className="text-sm opacity-60 mb-1">Dimenzije</p>
-                  <p className="text-lg">{firstWork.dimensions}</p>
+                  <p className="text-sm text-white/60 mb-1">Dimenzije</p>
+                  <p className="text-lg text-white">{firstWork.dimensions}</p>
                 </div>
               </div>
 
               <div className="flex items-start space-x-3">
                 <Sparkles className="w-5 h-5 text-[#d4af37] mt-1 flex-shrink-0" />
                 <div className="flex-1">
-                  <p className="text-sm opacity-60 mb-1">Status</p>
+                  <p className="text-sm text-white/60 mb-1">Status</p>
                   <p className="text-lg text-[#d4af37]">{firstWork.status}</p>
                 </div>
               </div>
