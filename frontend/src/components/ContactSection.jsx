@@ -96,7 +96,7 @@ const ContactSection = () => {
             </div>
 
             <div>
-              <label htmlFor="message" className="block text-sm uppercase tracking-wider mb-2 text-[#d4af37]">
+              <label htmlFor="message" className="block text-sm uppercase tracking-wider mb-2 text-white">
                 Poruka
               </label>
               <Textarea
