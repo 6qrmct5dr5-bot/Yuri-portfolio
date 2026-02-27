@@ -74,7 +74,7 @@ const Header = () => {
           <nav className="flex flex-col items-center space-y-6 py-8">
             <button
               onClick={() => scrollToSection('djela')}
-              className="text-sm tracking-wider uppercase hover:text-[#d4af37] transition-colors duration-300"
+              className="text-sm tracking-wider uppercase text-white hover:text-[#d4af37] transition-colors duration-300"
             >
               Djela
             </button>
