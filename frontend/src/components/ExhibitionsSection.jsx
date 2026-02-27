@@ -65,7 +65,7 @@ const ExhibitionsSection = () => {
                 </div>
 
                 <div className="ml-12">
-                  <h3 className="text-2xl md:text-3xl font-['Playfair_Display'] text-[#d4af37] mb-4 group-hover:text-[#c5a028] transition-colors">
+                  <h3 className="text-2xl md:text-3xl font-['Playfair_Display'] text-white mb-4 group-hover:text-[#d4af37] transition-colors">
                     {exhibition.title}
                   </h3>
                   
