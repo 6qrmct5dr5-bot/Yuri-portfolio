@@ -16,7 +16,7 @@ const Footer = () => {
 
           <div className="space-y-2 text-sm text-white">
             <p>1/100 - Početak</p>
-            <p>99 duša preostalo</p>
+            <p>99 darova skrivenih svijetova preostalo</p>
           </div>
 
           <div className="pt-6">
