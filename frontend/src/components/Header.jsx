@@ -33,7 +33,7 @@ const Header = () => {
           onClick={() => scrollToSection('hero')}
           className="cursor-pointer"
         >
-          <h1 className="text-2xl md:text-3xl font-light tracking-widest text-[#d4af37] font-['Playfair_Display']">
+          <h1 className="text-2xl md:text-3xl font-light tracking-widest text-white font-['Playfair_Display']">
             YURI
           </h1>
         </div>
