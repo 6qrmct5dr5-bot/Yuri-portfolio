@@ -34,7 +34,7 @@ const HeroSection = () => {
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
       }`}>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-light tracking-widest mb-12 font-['Playfair_Display'] text-[#d4af37]">
-          TAJANSTVENI<br />UMJETNIK
+          YURI
         </h1>
         
         <div className="space-y-8 text-lg md:text-2xl opacity-90">
