@@ -42,7 +42,7 @@ const HeroSection = () => {
             O njemu se zna samo ono što naslutimo. Njegova djela nadilaze tehniku — u njima je prisutnost prostora između misli, između svjetova.
           </p>
           <p className="animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
-            Koristi <span className="text-white italic">zlato ručno obrađeno od najboljih starih majstora</span>, doneseno s mjesta koje ne poznaje geografija. Spoj zlata i tajnog materijala kojeg Yuri miješa u boju stvara nešto nalik na <strong>PRIMA MATERIJU</strong>, splet atoma i molekula koji stvaraju svijet van poznatog svijeta i svojom energijom gotovo nadnaravno ispunjavaju prostor s kojim se je dijelo predodređeno sjediniti.
+            Koristi <span className="text-white italic">zlato ručno obrađeno po starim renesansnim tehnikama</span>, onako kako su ga pripremali majstori prošlih stoljeća. Spoj ovog plemenitog zlata i tajnog materijala kojeg Yuri miješa u boju stvara nešto nalik na <strong>PRIMA MATERIJU</strong>, splet atoma i molekula koji stvaraju svijet van poznatog svijeta i svojom energijom gotovo nadnaravno ispunjavaju prostor s kojim se je dijelo predodređeno sjediniti.
           </p>
         </div>
 
