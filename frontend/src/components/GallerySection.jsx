@@ -1,19 +1,9 @@
 import React, { useEffect, useState, useRef } from 'react';
-import { Eye, Calendar, Ruler, Palette } from 'lucide-react';
-import { galleryWorks } from '../mock';
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-} from './ui/dialog';
-import { Badge } from './ui/badge';
+import { Calendar, Ruler, Palette, Sparkles } from 'lucide-react';
+import { firstWork } from '../mock';
 
 const GallerySection = () => {
   const [isVisible, setIsVisible] = useState(false);
-  const [selectedWork, setSelectedWork] = useState(null);
-  const [filter, setFilter] = useState('all');
   const sectionRef = useRef(null);
 
   useEffect(() => {
@@ -37,202 +27,133 @@ const GallerySection = () => {
     };
   }, []);
 
-  const filteredWorks = filter === 'all' 
-    ? galleryWorks 
-    : filter === 'available'
-    ? galleryWorks.filter(w => w.available)
-    : galleryWorks.filter(w => !w.available);
-
   return (
     <section
       id="djela"
       ref={sectionRef}
       className="min-h-screen py-24 px-6 relative"
     >
-      <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a] via-[#1a1a1a] to-black opacity-60"></div>
+      <div className="absolute inset-0 opacity-30">
+        <div className="absolute inset-0" 
+             style={{
+               backgroundImage: 'radial-gradient(circle at 50% 50%, #d4af37 1px, transparent 1px)',
+               backgroundSize: '80px 80px'
+             }}>
+        </div>
+      </div>
       
-      <div className={`relative z-10 max-w-7xl mx-auto transition-all duration-1000 ${
+      <div className={`relative z-10 max-w-6xl mx-auto transition-all duration-1000 ${
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'
       }`}>
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-6xl font-light tracking-widest text-[#d4af37] font-['Playfair_Display'] mb-6">
-            DJELA
+          <div className="inline-block mb-6">
+            <div className="text-7xl md:text-9xl font-light text-[#d4af37] font-['Playfair_Display'] mb-2">
+              1/100
+            </div>
+            <div className="h-px bg-[#d4af37] w-full"></div>
+          </div>
+          <h2 className="text-3xl md:text-5xl font-light tracking-widest text-white font-['Playfair_Display'] mb-6">
+            DJELO KOJE OTVARA SERIJU
           </h2>
-          <div className="h-px w-32 bg-[#d4af37] mx-auto mb-8"></div>
-          <p className="text-lg opacity-75 max-w-2xl mx-auto mb-8">
-            Svako djelo je jedinstveno, stvoreno s namjerom da progovori onima koji su spremni slušati.
+          <p className="text-lg opacity-75 max-w-2xl mx-auto">
+            Ovo je prvi korak u putovanje kroz 100 duša. Početak koji se nikada neće ponoviti.
           </p>
+        </div>
 
-          {/* Filter buttons */}
-          <div className="flex justify-center space-x-4 flex-wrap gap-2">
-            <button
-              onClick={() => setFilter('all')}
-              className={`px-6 py-2 rounded-full border transition-all duration-300 ${
-                filter === 'all'
-                  ? 'bg-[#d4af37] border-[#d4af37] text-black'
-                  : 'border-[#d4af37]/30 hover:border-[#d4af37] hover:bg-[#d4af37]/10'
-              }`}
-            >
-              Sva Djela
-            </button>
-            <button
-              onClick={() => setFilter('available')}
-              className={`px-6 py-2 rounded-full border transition-all duration-300 ${
-                filter === 'available'
-                  ? 'bg-[#d4af37] border-[#d4af37] text-black'
-                  : 'border-[#d4af37]/30 hover:border-[#d4af37] hover:bg-[#d4af37]/10'
-              }`}
-            >
-              Dostupno
-            </button>
-            <button
-              onClick={() => setFilter('sold')}
-              className={`px-6 py-2 rounded-full border transition-all duration-300 ${
-                filter === 'sold'
-                  ? 'bg-[#d4af37] border-[#d4af37] text-black'
-                  : 'border-[#d4af37]/30 hover:border-[#d4af37] hover:bg-[#d4af37]/10'
-              }`}
-            >
-              Odabrano
-            </button>
+        {/* Main artwork showcase */}
+        <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+          {/* Image */}
+          <div className="relative group">
+            <div className="absolute -inset-4 bg-gradient-to-r from-[#d4af37]/20 to-transparent blur-2xl group-hover:blur-3xl transition-all duration-500"></div>
+            <div className="relative overflow-hidden rounded-lg border-2 border-[#d4af37]/30 group-hover:border-[#d4af37] transition-all duration-500">
+              <img
+                src={firstWork.image}
+                alt={firstWork.title}
+                className="w-full h-auto transition-transform duration-700 group-hover:scale-105"
+              />
+              {/* Edition badge */}
+              <div className="absolute top-6 right-6 bg-black/80 backdrop-blur-sm border border-[#d4af37] px-6 py-3 rounded-lg">
+                <span className="text-3xl font-['Playfair_Display'] text-[#d4af37] font-bold">
+                  {firstWork.edition}
+                </span>
+              </div>
+            </div>
+          </div>
+
+          {/* Details */}
+          <div className="space-y-6">
+            <div>
+              <h3 className="text-4xl md:text-5xl font-['Playfair_Display'] text-[#d4af37] mb-4">
+                {firstWork.title}
+              </h3>
+              <p className="text-lg opacity-85 leading-relaxed mb-6">
+                {firstWork.description}
+              </p>
+            </div>
+
+            <div className="space-y-4 p-6 bg-white/5 backdrop-blur-sm border border-[#d4af37]/20 rounded-lg">
+              <div className="flex items-start space-x-3 pb-4 border-b border-[#d4af37]/20">
+                <Calendar className="w-5 h-5 text-[#d4af37] mt-1 flex-shrink-0" />
+                <div className="flex-1">
+                  <p className="text-sm opacity-60 mb-1">Stvoreno</p>
+                  <p className="text-lg">{firstWork.created}</p>
+                </div>
+              </div>
+
+              <div className="flex items-start space-x-3 pb-4 border-b border-[#d4af37]/20">
+                <Palette className="w-5 h-5 text-[#d4af37] mt-1 flex-shrink-0" />
+                <div className="flex-1">
+                  <p className="text-sm opacity-60 mb-1">Medij</p>
+                  <p className="text-lg">{firstWork.medium}</p>
+                </div>
+              </div>
+
+              <div className="flex items-start space-x-3 pb-4 border-b border-[#d4af37]/20">
+                <Ruler className="w-5 h-5 text-[#d4af37] mt-1 flex-shrink-0" />
+                <div className="flex-1">
+                  <p className="text-sm opacity-60 mb-1">Dimenzije</p>
+                  <p className="text-lg">{firstWork.dimensions}</p>
+                </div>
+              </div>
+
+              <div className="flex items-start space-x-3">
+                <Sparkles className="w-5 h-5 text-[#d4af37] mt-1 flex-shrink-0" />
+                <div className="flex-1">
+                  <p className="text-sm opacity-60 mb-1">Status</p>
+                  <p className="text-lg text-[#d4af37]">{firstWork.status}</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
-        {/* Gallery Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {filteredWorks.map((work, index) => (
-            <div
-              key={work.id}
-              className="group relative cursor-pointer"
-              style={{
-                animation: `fadeInUp 0.6s ease forwards ${index * 0.1}s`,
-                opacity: 0
-              }}
-              onClick={() => setSelectedWork(work)}
-            >
-              <div className="relative overflow-hidden rounded-lg bg-black/50 border border-[#d4af37]/20 hover:border-[#d4af37] transition-all duration-500">
-                <div className="aspect-square overflow-hidden">
-                  <img
-                    src={work.image}
-                    alt={work.title}
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                  />
-                </div>
-                
-                {/* Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-6">
-                  <div className="w-full">
-                    <h3 className="text-xl font-['Playfair_Display'] text-[#d4af37] mb-2">
-                      {work.title}
-                    </h3>
-                    <p className="text-sm opacity-75 mb-3">{work.year}</p>
-                    <div className="flex items-center justify-between">
-                      <span className="text-xs opacity-60">{work.edition}</span>
-                      <Eye className="w-4 h-4 text-[#d4af37]" />
-                    </div>
-                  </div>
-                </div>
+        {/* Quote section */}
+        <div className="mt-20 p-12 bg-gradient-to-r from-transparent via-[#d4af37]/5 to-transparent border border-[#d4af37]/30 rounded-lg text-center">
+          <p className="text-2xl md:text-3xl font-light italic text-[#d4af37] mb-6 font-['Playfair_Display']">
+            "Svako djelo iz serije je vrata.<br />
+            Ovo je prvo koje se otvara."
+          </p>
+          <p className="text-base opacity-75">
+            99 duša još čeka svoj trenutak. 99 svjetova još treba biti oslobođeno.
+          </p>
+        </div>
 
-                {/* Status badge */}
-                {!work.available && (
-                  <div className="absolute top-4 right-4">
-                    <Badge className="bg-[#d4af37] text-black border-none">
-                      Odabrano
-                    </Badge>
-                  </div>
-                )}
-              </div>
-            </div>
-          ))}
+        {/* Series counter */}
+        <div className="mt-12 grid grid-cols-3 gap-6 text-center">
+          <div className="p-6 bg-black/40 border border-[#d4af37]/20 rounded-lg">
+            <div className="text-4xl font-light text-[#d4af37] mb-2">1</div>
+            <div className="text-sm opacity-60 uppercase tracking-wider">Stvoreno</div>
+          </div>
+          <div className="p-6 bg-gradient-to-br from-[#d4af37]/10 to-transparent border border-[#d4af37]/40 rounded-lg">
+            <div className="text-4xl font-light text-[#d4af37] mb-2">99</div>
+            <div className="text-sm opacity-60 uppercase tracking-wider">Preostalo</div>
+          </div>
+          <div className="p-6 bg-black/40 border border-[#d4af37]/20 rounded-lg">
+            <div className="text-4xl font-light text-[#d4af37] mb-2">100</div>
+            <div className="text-sm opacity-60 uppercase tracking-wider">Zavjet</div>
+          </div>
         </div>
       </div>
-
-      {/* Dialog for work details */}
-      <Dialog open={!!selectedWork} onOpenChange={() => setSelectedWork(null)}>
-        <DialogContent className="max-w-4xl bg-black border border-[#d4af37]/30 text-white">
-          {selectedWork && (
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="rounded-lg overflow-hidden">
-                <img
-                  src={selectedWork.image}
-                  alt={selectedWork.title}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              
-              <div className="space-y-6">
-                <DialogHeader>
-                  <DialogTitle className="text-3xl font-['Playfair_Display'] text-[#d4af37]">
-                    {selectedWork.title}
-                  </DialogTitle>
-                  <DialogDescription className="text-base text-gray-300">
-                    Dio kolekcije: {selectedWork.edition}
-                  </DialogDescription>
-                </DialogHeader>
-
-                <div className="space-y-4">
-                  <div className="flex items-start space-x-3">
-                    <Calendar className="w-5 h-5 text-[#d4af37] mt-1 flex-shrink-0" />
-                    <div>
-                      <p className="text-sm opacity-60">Godina</p>
-                      <p className="text-lg">{selectedWork.year}</p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start space-x-3">
-                    <Palette className="w-5 h-5 text-[#d4af37] mt-1 flex-shrink-0" />
-                    <div>
-                      <p className="text-sm opacity-60">Medij</p>
-                      <p className="text-lg">{selectedWork.medium}</p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start space-x-3">
-                    <Ruler className="w-5 h-5 text-[#d4af37] mt-1 flex-shrink-0" />
-                    <div>
-                      <p className="text-sm opacity-60">Dimenzije</p>
-                      <p className="text-lg">{selectedWork.dimensions}</p>
-                    </div>
-                  </div>
-
-                  <div className="pt-4 border-t border-[#d4af37]/20">
-                    <div className="flex items-center justify-between">
-                      <span className="text-sm opacity-60">Status:</span>
-                      <Badge className={selectedWork.available 
-                        ? "bg-green-600/20 text-green-400 border-green-400/30" 
-                        : "bg-gray-600/20 text-gray-400 border-gray-400/30"
-                      }>
-                        {selectedWork.available ? 'Dostupno' : 'Odabrano'}
-                      </Badge>
-                    </div>
-                  </div>
-
-                  {selectedWork.available && (
-                    <div className="pt-4">
-                      <p className="text-sm italic opacity-75 text-center">
-                        "Ovo djelo čeka svog vlasnika. Jeste li vi odabrani?"
-                      </p>
-                    </div>
-                  )}
-                </div>
-              </div>
-            </div>
-          )}
-        </DialogContent>
-      </Dialog>
-
-      <style jsx>{`
-        @keyframes fadeInUp {
-          from {
-            opacity: 0;
-            transform: translateY(30px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-      `}</style>
     </section>
   );
 };
