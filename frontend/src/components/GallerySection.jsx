@@ -153,6 +153,32 @@ const GallerySection = () => {
           </div>
         </div>
 
+        {/* Exclusive collection statement */}
+        <div className="mt-12 p-10 bg-gradient-to-br from-[#d4af37]/10 via-black/80 to-black/60 border-2 border-[#d4af37]/50 rounded-lg backdrop-blur-sm">
+          <h3 className="text-2xl md:text-3xl font-['Playfair_Display'] text-white mb-6 text-center">
+            Ekskluzivitet Kolekcije
+          </h3>
+          <div className="space-y-6 text-base md:text-lg text-white leading-relaxed">
+            <p className="flex items-start space-x-3">
+              <span className="text-[#d4af37] text-2xl flex-shrink-0">✉</span>
+              <span>Uz svako dijelo dobija se <strong>personalizirano pismo autora</strong> namjenjeno osobno kolekcionaru pisano rukom.</span>
+            </p>
+            <p className="flex items-start space-x-3">
+              <span className="text-[#d4af37] text-2xl flex-shrink-0">◆</span>
+              <span>Svaki kolekcionar koji postane vlasnik dijela biti će <strong>jedan od samo 100 ljudi na svijetu</strong> koji su u posjedu slike iz kolekcije.</span>
+            </p>
+            <p className="flex items-start space-x-3">
+              <span className="text-[#d4af37] text-2xl flex-shrink-0">∞</span>
+              <span>Nakon posljednje slike autor <strong>neće načiniti više niti jedno dijelo</strong> pod nikakvim uvijetima i ni po kojoj cijeni.</span>
+            </p>
+          </div>
+          <div className="mt-8 pt-6 border-t border-[#d4af37]/30 text-center">
+            <p className="text-lg italic text-white">
+              Ovo nije investicija. Ovo je zauvijek.
+            </p>
+          </div>
+        </div>
+
         {/* Series counter */}
         <div className="mt-12 grid grid-cols-3 gap-6 text-center">
           <div className="p-6 bg-black/40 border border-[#d4af37]/20 rounded-lg">
