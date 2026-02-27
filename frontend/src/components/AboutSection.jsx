@@ -72,10 +72,10 @@ const AboutSection = () => {
               <h3 className="text-3xl md:text-4xl font-light text-[#d4af37] font-['Playfair_Display'] mb-4">
                 Samo 100 Djela
               </h3>
-              <p className="text-lg opacity-90 leading-relaxed mb-6">
+              <p className="text-lg text-white leading-relaxed mb-6">
                 To nije broj, to je zavjet. Svako nosi impuls nečeg što bira svog vlasnika.
               </p>
-              <div className="space-y-3 text-sm opacity-75">
+              <div className="space-y-3 text-sm text-white">
                 <div className="flex justify-between items-center border-b border-[#d4af37]/20 pb-2">
                   <span>Stvoreno:</span>
                   <span className="text-[#d4af37]">1 djelo</span>
