@@ -34,7 +34,7 @@ const Header = () => {
           className="cursor-pointer"
         >
           <h1 className="text-2xl md:text-3xl font-light tracking-widest text-[#d4af37] font-['Playfair_Display']">
-            TAJANSTVENI UMJETNIK
+            YURI
           </h1>
         </div>
 
