@@ -43,9 +43,17 @@ const ExhibitionsSection = () => {
             IZLOŽBE
           </h2>
           <div className="h-px w-32 bg-[#d4af37] mx-auto mb-8"></div>
-          <p className="text-lg text-white max-w-2xl mx-auto">
-            Ekskluzivni susreti s djelima koja biraju svoju publiku.
-          </p>
+          <div className="max-w-3xl mx-auto space-y-4">
+            <p className="text-lg text-white leading-relaxed">
+              Autor ne izlaže. Njegova djela nije moguće vidjeti unatoč velikom interesu.
+            </p>
+            <p className="text-base text-white leading-relaxed">
+              Djela se mogu vidjeti <strong>isključivo jedno po jedno</strong> po dogovoru sa zainteresiranom strankom i to <strong>ne na istoj lokaciji</strong>.
+            </p>
+            <p className="text-base text-white leading-relaxed">
+              Nije moguće birati između djela — djelo se može <strong>unaprijed rezervirati po nadolazećem rednom broju</strong>.
+            </p>
+          </div>
         </div>
 
         <div className="space-y-8">
