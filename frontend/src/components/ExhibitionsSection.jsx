@@ -43,7 +43,7 @@ const ExhibitionsSection = () => {
             IZLOŽBE
           </h2>
           <div className="h-px w-32 bg-[#d4af37] mx-auto mb-8"></div>
-          <p className="text-lg opacity-75 max-w-2xl mx-auto">
+          <p className="text-lg text-white max-w-2xl mx-auto">
             Ekskluzivni susreti s djelima koja biraju svoju publiku.
           </p>
         </div>
