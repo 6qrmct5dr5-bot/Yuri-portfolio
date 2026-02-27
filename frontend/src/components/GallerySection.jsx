@@ -129,7 +129,7 @@ const GallerySection = () => {
 
         {/* Quote section */}
         <div className="mt-20 p-12 bg-gradient-to-r from-transparent via-[#d4af37]/5 to-transparent border border-[#d4af37]/30 rounded-lg text-center">
-          <p className="text-2xl md:text-3xl font-light italic text-[#d4af37] mb-6 font-['Playfair_Display']">
+          <p className="text-2xl md:text-3xl font-light italic text-white mb-6 font-['Playfair_Display']">
             "Svako djelo iz serije je vrata.<br />
             Ovo je prvo koje se otvara."
           </p>
