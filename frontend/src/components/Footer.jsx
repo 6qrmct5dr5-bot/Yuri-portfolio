@@ -6,8 +6,8 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center space-y-6">
           <div>
-            <h3 className="text-2xl font-light tracking-widest text-[#d4af37] font-['Playfair_Display'] mb-2">
-              TAJANSTVENI UMJETNIK
+            <h3 className="text-3xl font-light tracking-widest text-[#d4af37] font-['Playfair_Display'] mb-2">
+              YURI
             </h3>
             <p className="text-sm opacity-60">Serija od 100 duša</p>
           </div>
@@ -21,7 +21,7 @@ const Footer = () => {
 
           <div className="pt-6">
             <p className="text-xs opacity-50">
-              © {new Date().getFullYear()} Tajanstveni Umjetnik. Sva prava zadržana.
+              © {new Date().getFullYear()} Yuri. Sva prava zadržana.
             </p>
           </div>
         </div>
