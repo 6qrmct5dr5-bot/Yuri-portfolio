@@ -134,7 +134,7 @@ const GallerySection = () => {
             vrata koja se otvaraju samo za Vas."
           </p>
           <p className="text-base text-white">
-            99 duša još čeka svoj trenutak. 99 svjetova još treba biti oslobođeno.
+            99 darova skrivenih svijetova još čeka svoj trenutak. 99 svjetova još treba biti oslobođeno.
           </p>
         </div>
 
