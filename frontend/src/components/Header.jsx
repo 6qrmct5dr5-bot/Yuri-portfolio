@@ -40,12 +40,6 @@ const Header = () => {
 
         <nav className="hidden md:flex items-center space-x-8">
           <button
-            onClick={() => scrollToSection('o-njemu')}
-            className="text-sm tracking-wider uppercase hover:text-[#d4af37] transition-colors duration-300"
-          >
-            O Njemu
-          </button>
-          <button
             onClick={() => scrollToSection('djela')}
             className="text-sm tracking-wider uppercase hover:text-[#d4af37] transition-colors duration-300"
           >
