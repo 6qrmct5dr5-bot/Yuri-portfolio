@@ -128,7 +128,7 @@ const ContactSection = () => {
           </form>
 
           <div className="mt-8 pt-8 border-t border-[#d4af37]/20 text-center">
-            <p className="text-sm italic opacity-75">
+            <p className="text-sm italic text-white">
               "Samo oni koji čuju poziv će dobiti odgovor."
             </p>
           </div>
