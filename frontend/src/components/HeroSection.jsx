@@ -49,7 +49,6 @@ const HeroSection = () => {
         {/* Expanded content */}
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-16 animate-fade-in-up" style={{ animationDelay: '0.9s' }}>
           <div className="flex items-start space-x-4 p-6 bg-white/5 backdrop-blur-sm border border-[#d4af37]/20 rounded-lg text-left">
-            <Sparkles className="w-6 h-6 text-[#d4af37] flex-shrink-0 mt-1" />
             <div>
               <h3 className="text-2xl font-['Playfair_Display'] text-white mb-3">
                 Magični Aparatus u Obliku Slike - Alkemija Pretočena u Kompoziciju
