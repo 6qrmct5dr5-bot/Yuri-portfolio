@@ -142,15 +142,15 @@ const GallerySection = () => {
         <div className="mt-12 grid grid-cols-3 gap-6 text-center">
           <div className="p-6 bg-black/40 border border-[#d4af37]/20 rounded-lg">
             <div className="text-4xl font-light text-[#d4af37] mb-2">1</div>
-            <div className="text-sm opacity-60 uppercase tracking-wider">Stvoreno</div>
+            <div className="text-sm text-white uppercase tracking-wider">Stvoreno</div>
           </div>
           <div className="p-6 bg-gradient-to-br from-[#d4af37]/10 to-transparent border border-[#d4af37]/40 rounded-lg">
             <div className="text-4xl font-light text-[#d4af37] mb-2">99</div>
-            <div className="text-sm opacity-60 uppercase tracking-wider">Preostalo</div>
+            <div className="text-sm text-white uppercase tracking-wider">Preostalo</div>
           </div>
           <div className="p-6 bg-black/40 border border-[#d4af37]/20 rounded-lg">
             <div className="text-4xl font-light text-[#d4af37] mb-2">100</div>
-            <div className="text-sm opacity-60 uppercase tracking-wider">Zavjet</div>
+            <div className="text-sm text-white uppercase tracking-wider">Zavjet</div>
           </div>
         </div>
       </div>
