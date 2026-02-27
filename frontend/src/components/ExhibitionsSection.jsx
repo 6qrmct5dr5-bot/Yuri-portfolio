@@ -70,17 +70,17 @@ const ExhibitionsSection = () => {
                   </h3>
                   
                   <div className="flex flex-col md:flex-row md:items-center md:space-x-8 space-y-3 md:space-y-0 mb-4">
-                    <div className="flex items-center space-x-2 text-sm opacity-75">
+                    <div className="flex items-center space-x-2 text-sm text-white">
                       <MapPin className="w-4 h-4 text-[#d4af37]" />
                       <span>{exhibition.location}</span>
                     </div>
-                    <div className="flex items-center space-x-2 text-sm opacity-75">
+                    <div className="flex items-center space-x-2 text-sm text-white">
                       <Calendar className="w-4 h-4 text-[#d4af37]" />
                       <span>{exhibition.year}</span>
                     </div>
                   </div>
 
-                  <p className="text-base opacity-85 leading-relaxed italic">
+                  <p className="text-base text-white leading-relaxed italic">
                     {exhibition.description}
                   </p>
                 </div>
