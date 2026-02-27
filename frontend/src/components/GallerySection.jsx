@@ -130,8 +130,8 @@ const GallerySection = () => {
         {/* Quote section */}
         <div className="mt-20 p-12 bg-gradient-to-r from-transparent via-[#d4af37]/5 to-transparent border border-[#d4af37]/30 rounded-lg text-center">
           <p className="text-2xl md:text-3xl font-light italic text-white mb-6 font-['Playfair_Display']">
-            "Svako djelo iz serije je vrata.<br />
-            Ovo je prvo koje se otvara."
+            "Svako djelo iz serije je portal —<br />
+            vrata koja se otvaraju samo za Vas."
           </p>
           <p className="text-base text-white">
             99 duša još čeka svoj trenutak. 99 svjetova još treba biti oslobođeno.
