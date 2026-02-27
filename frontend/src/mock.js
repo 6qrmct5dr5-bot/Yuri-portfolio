@@ -25,6 +25,6 @@ export const exhibitions = [
     title: "Tajna Ceremonija",
     location: "Nepoznata Lokacija",
     year: 2024,
-    description: "Mistični ritual otvaranja serije od 100 duša."
+    description: "Mistični ritual otvaranja serije od 100 darova skrivenih svijetova."
   }
 ];
