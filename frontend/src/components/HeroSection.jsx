@@ -51,7 +51,7 @@ const HeroSection = () => {
           <div className="flex items-start space-x-4 p-6 bg-white/5 backdrop-blur-sm border border-[#d4af37]/20 rounded-lg text-left">
             <Sparkles className="w-6 h-6 text-[#d4af37] flex-shrink-0 mt-1" />
             <div>
-              <h3 className="text-2xl font-['Playfair_Display'] text-[#d4af37] mb-3">
+              <h3 className="text-2xl font-['Playfair_Display'] text-white mb-3">
                 Živa Platna
               </h3>
               <p className="text-base text-white leading-relaxed">
