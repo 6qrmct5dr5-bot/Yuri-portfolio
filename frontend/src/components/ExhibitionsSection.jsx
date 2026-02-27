@@ -39,7 +39,7 @@ const ExhibitionsSection = () => {
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'
       }`}>
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-6xl font-light tracking-widest text-[#d4af37] font-['Playfair_Display'] mb-6">
+          <h2 className="text-4xl md:text-6xl font-light tracking-widest text-white font-['Playfair_Display'] mb-6">
             IZLOŽBE
           </h2>
           <div className="h-px w-32 bg-[#d4af37] mx-auto mb-8"></div>
