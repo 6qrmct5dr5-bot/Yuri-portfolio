@@ -55,7 +55,7 @@ const GallerySection = () => {
           <h2 className="text-3xl md:text-5xl font-light tracking-widest text-white font-['Playfair_Display'] mb-6">
             DJELO KOJE OTVARA SERIJU
           </h2>
-          <p className="text-lg opacity-75 max-w-2xl mx-auto">
+          <p className="text-lg text-white max-w-2xl mx-auto">
             Ovo je prvi korak u putovanje kroz 100 duša. Početak koji se nikada neće ponoviti.
           </p>
         </div>
