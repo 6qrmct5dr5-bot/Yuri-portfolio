@@ -56,7 +56,7 @@ const ContactSection = () => {
             KONTAKT
           </h2>
           <div className="h-px w-32 bg-[#d4af37] mx-auto mb-8"></div>
-          <p className="text-lg opacity-75 max-w-2xl mx-auto">
+          <p className="text-lg text-white max-w-2xl mx-auto">
             Pošaljite svoju poruku. Ako ste odabrani, znat ćete.
           </p>
         </div>
