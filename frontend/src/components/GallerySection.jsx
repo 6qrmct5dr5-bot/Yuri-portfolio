@@ -144,7 +144,7 @@ const GallerySection = () => {
             <div className="text-[#d4af37] text-4xl">✦</div>
             <div>
               <h3 className="text-xl font-['Playfair_Display'] text-white mb-3">
-                Ekskluzivno Gledanje
+                Neometana Kontemplacija Dijela uz Prezentaciju Stručne Osobe
               </h3>
               <p className="text-base text-white leading-relaxed">
                 Slika se može vidjeti izložena samo po prethodnom dogovoru na lokaciji koju će umjetnik odabrati te će biti prezentirana individualno za odabranog kolekcionara.
