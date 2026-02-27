@@ -74,7 +74,7 @@ const HeroSection = () => {
               </div>
               <div className="flex justify-between items-center border-b border-[#d4af37]/20 pb-2">
                 <span>Preostalo:</span>
-                <span className="text-[#d4af37]">99 duša</span>
+                <span className="text-[#d4af37]">99 darova skrivenih svijetova</span>
               </div>
               <div className="flex justify-between items-center">
                 <span>Status:</span>
