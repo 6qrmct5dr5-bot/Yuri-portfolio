@@ -86,7 +86,7 @@ const GallerySection = () => {
               <h3 className="text-4xl md:text-5xl font-['Playfair_Display'] text-[#d4af37] mb-4">
                 {firstWork.title}
               </h3>
-              <p className="text-lg opacity-85 leading-relaxed mb-6">
+              <p className="text-lg text-white leading-relaxed mb-6">
                 {firstWork.description}
               </p>
             </div>
