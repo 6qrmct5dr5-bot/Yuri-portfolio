@@ -64,7 +64,7 @@ const ContactSection = () => {
         <div className="bg-gradient-to-br from-black/60 to-[#1a1a1a]/60 backdrop-blur-sm border border-[#d4af37]/30 rounded-lg p-8 md:p-12">
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
-              <label htmlFor="name" className="block text-sm uppercase tracking-wider mb-2 text-[#d4af37]">
+              <label htmlFor="name" className="block text-sm uppercase tracking-wider mb-2 text-white">
                 Ime
               </label>
               <Input
