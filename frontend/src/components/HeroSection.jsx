@@ -42,7 +42,7 @@ const HeroSection = () => {
             O njemu se zna samo ono što naslutimo. Njegova djela nadilaze tehniku — u njima je prisutnost prostora između misli, između svjetova.
           </p>
           <p className="animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
-            Boje miješa s <span className="text-white italic">prahom i zlatom</span> donesenim s mjesta koje ne poznaje geografija. U tom zlatnom prahu leži svjetlost koja ne blijedi.
+            Boje miješa s <span className="text-white italic">prahom i zlatom</span> donesenim s mjesta koje ne poznaje geografija. Spoj zlata i tajnog materijala kojeg Yuri miješa u boju stvara nešto nalik na <strong>PRIMA MATERIJU</strong>, splet atoma i molekula koji stvaraju svijet van poznatog svijeta i svojom energijom gotovo nadnaravno ispunjavaju prostor s kojim se je dijelo predodređeno sjediniti.
           </p>
         </div>
 
