@@ -47,7 +47,7 @@ const Header = () => {
           </button>
           <button
             onClick={() => scrollToSection('izlozbe')}
-            className="text-sm tracking-wider uppercase hover:text-[#d4af37] transition-colors duration-300"
+            className="text-sm tracking-wider uppercase text-white hover:text-[#d4af37] transition-colors duration-300"
           >
             Izložbe
           </button>
