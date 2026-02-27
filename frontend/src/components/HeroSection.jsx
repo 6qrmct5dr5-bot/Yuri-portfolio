@@ -33,19 +33,16 @@ const HeroSection = () => {
       <div className={`relative z-10 max-w-4xl mx-auto px-6 text-center transition-all duration-1500 ${
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
       }`}>
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-light tracking-widest mb-12 font-['Playfair_Display'] text-[#d4af37]">
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-light tracking-widest mb-12 font-['Playfair_Display'] text-white">
           YURI
         </h1>
         
-        <div className="space-y-8 text-lg md:text-2xl opacity-90">
+        <div className="space-y-8 text-lg md:text-2xl text-white">
           <p className="animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
-            O njemu se zna samo ono što naslutimo.
+            O njemu se zna samo ono što naslutimo. Njegova djela nadilaze tehniku — u njima je prisutnost prostora između misli, između svjetova.
           </p>
           <p className="animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
-            Njegova djela nadilaze tehniku —
-          </p>
-          <p className="animate-fade-in-up" style={{ animationDelay: '0.9s' }}>
-            u njima je prisutnost prostora između misli, između svjetova.
+            Boje miješa s <span className="text-[#d4af37] italic">prahom i zlatom</span> donesenim s mjesta koje ne poznaje geografija. U tom zlatnom prahu leži svjetlost koja ne blijedi.
           </p>
         </div>
 
