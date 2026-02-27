@@ -9,7 +9,7 @@ const Footer = () => {
             <h3 className="text-3xl font-light tracking-widest text-[#d4af37] font-['Playfair_Display'] mb-2">
               YURI
             </h3>
-            <p className="text-sm opacity-60">Serija od 100 duša</p>
+            <p className="text-sm text-white">Serija od 100 duša</p>
           </div>
 
           <div className="h-px w-32 bg-[#d4af37]/30 mx-auto"></div>
