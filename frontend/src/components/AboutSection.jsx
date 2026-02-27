@@ -95,7 +95,7 @@ const AboutSection = () => {
               <p className="text-2xl md:text-3xl font-light italic text-[#d4af37] mb-2">
                 "Kad te izabere,"
               </p>
-              <p className="text-xl opacity-90">
+              <p className="text-xl text-white">
                 pogled više nikada nije isti.
               </p>
             </div>
