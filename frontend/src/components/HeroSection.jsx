@@ -90,7 +90,7 @@ const HeroSection = () => {
           <p className="text-xl md:text-2xl text-white italic">
             Kad te izabere, pogled više nikada nije isti.
           </p>
-          <p className="text-2xl md:text-4xl text-[#d4af37] font-light tracking-wider font-['Playfair_Display']">
+          <p className="text-2xl md:text-4xl text-white font-light tracking-wider font-['Playfair_Display']">
             Jesi li odabran?
           </p>
           
