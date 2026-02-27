@@ -62,7 +62,7 @@ const HeroSection = () => {
           </div>
 
           <div className="p-6 bg-gradient-to-br from-[#d4af37]/10 to-transparent border border-[#d4af37]/30 rounded-lg text-left">
-            <h3 className="text-2xl font-light text-[#d4af37] font-['Playfair_Display'] mb-4">
+            <h3 className="text-2xl font-light text-white font-['Playfair_Display'] mb-4">
               Samo 100 Djela
             </h3>
             <p className="text-base text-white leading-relaxed mb-4">
