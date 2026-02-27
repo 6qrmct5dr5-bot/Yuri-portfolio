@@ -42,7 +42,7 @@ const HeroSection = () => {
             O njemu se zna samo ono što naslutimo. Njegova djela nadilaze tehniku — u njima je prisutnost prostora između misli, između svjetova.
           </p>
           <p className="animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
-            Boje miješa s <span className="text-[#d4af37] italic">prahom i zlatom</span> donesenim s mjesta koje ne poznaje geografija. U tom zlatnom prahu leži svjetlost koja ne blijedi.
+            Boje miješa s <span className="text-white italic">prahom i zlatom</span> donesenim s mjesta koje ne poznaje geografija. U tom zlatnom prahu leži svjetlost koja ne blijedi.
           </p>
         </div>
 
