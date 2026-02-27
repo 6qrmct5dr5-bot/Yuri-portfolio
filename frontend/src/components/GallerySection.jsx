@@ -138,6 +138,21 @@ const GallerySection = () => {
           </p>
         </div>
 
+        {/* Exclusive viewing notice */}
+        <div className="mt-12 p-8 bg-black/60 border border-[#d4af37]/40 rounded-lg backdrop-blur-sm">
+          <div className="flex items-start space-x-4">
+            <div className="text-[#d4af37] text-4xl">✦</div>
+            <div>
+              <h3 className="text-xl font-['Playfair_Display'] text-white mb-3">
+                Ekskluzivno Gledanje
+              </h3>
+              <p className="text-base text-white leading-relaxed">
+                Slika se može vidjeti izložena samo po prethodnom dogovoru na lokaciji koju će umjetnik odabrati te će biti prezentirana individualno za odabranog kolekcionara.
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* Series counter */}
         <div className="mt-12 grid grid-cols-3 gap-6 text-center">
           <div className="p-6 bg-black/40 border border-[#d4af37]/20 rounded-lg">
