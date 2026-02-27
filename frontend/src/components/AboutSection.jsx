@@ -68,7 +68,13 @@ const AboutSection = () => {
           </div>
 
           <div className="space-y-8">
-            <div className="pt-4 border-t border-[#d4af37]/20">
+            <div className="p-8 bg-gradient-to-br from-[#d4af37]/10 to-transparent border border-[#d4af37]/30 rounded-lg backdrop-blur-sm">
+              <h3 className="text-3xl md:text-4xl font-light text-[#d4af37] font-['Playfair_Display'] mb-4">
+                Samo 100 Djela
+              </h3>
+              <p className="text-lg opacity-90 leading-relaxed mb-6">
+                To nije broj, to je zavjet. Svako nosi impuls nečeg što bira svog vlasnika.
+              </p>
               <div className="space-y-3 text-sm opacity-75">
                 <div className="flex justify-between items-center border-b border-[#d4af37]/20 pb-2">
                   <span>Stvoreno:</span>
