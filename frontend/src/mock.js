@@ -16,7 +16,7 @@ export const exhibitions = [
   {
     id: 1,
     title: "Inauguracija: Djelo 1/100",
-    location: "Privatna Galerija, Venecija",
+    location: "Tajna loža stvorena za sliku - stvorena za Vas koji znate",
     year: 2024,
     description: "Premijerno predstavljanje prvog djela koje otvara legendarnu seriju. Samo 12 odabranih svjedočilo je početku."
   },
