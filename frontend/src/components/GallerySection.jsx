@@ -133,7 +133,7 @@ const GallerySection = () => {
             "Svako djelo iz serije je vrata.<br />
             Ovo je prvo koje se otvara."
           </p>
-          <p className="text-base opacity-75">
+          <p className="text-base text-white">
             99 duša još čeka svoj trenutak. 99 svjetova još treba biti oslobođeno.
           </p>
         </div>
