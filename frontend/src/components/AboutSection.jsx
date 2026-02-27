@@ -45,7 +45,7 @@ const AboutSection = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="space-y-8 text-lg md:text-xl opacity-90">
+          <div className="space-y-8 text-lg md:text-xl text-white">
             <p className="leading-relaxed">
               Boje miješa s <span className="text-[#d4af37] italic">prahom i zlatom</span> donesenim 
               s mjesta koje ne poznaje geografija.
@@ -59,7 +59,7 @@ const AboutSection = () => {
                 <h3 className="text-2xl font-['Playfair_Display'] text-[#d4af37] mb-3">
                   Živa Platna
                 </h3>
-                <p className="text-base opacity-85 leading-relaxed">
+                <p className="text-base text-white leading-relaxed">
                   Njegove površine dišu. Pod svjetlom mijenjaju ton, reagiraju na pogled. 
                   Oni koji ih dovoljno dugo promatraju teško se odmiču — postaju dio slike.
                 </p>
