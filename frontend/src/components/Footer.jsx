@@ -14,7 +14,7 @@ const Footer = () => {
 
           <div className="h-px w-32 bg-[#d4af37]/30 mx-auto"></div>
 
-          <div className="space-y-2 text-sm opacity-75">
+          <div className="space-y-2 text-sm text-white">
             <p>1/100 - Početak</p>
             <p>99 duša preostalo</p>
           </div>
