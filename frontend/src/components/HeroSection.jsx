@@ -98,7 +98,7 @@ const HeroSection = () => {
             onClick={scrollToGallery}
             className="group inline-flex flex-col items-center space-y-2 hover:scale-110 transition-transform duration-300 mt-12"
           >
-            <span className="text-sm tracking-widest uppercase text-[#d4af37]">
+            <span className="text-sm tracking-widest uppercase text-white">
               Pogledaj Djelo 1/100
             </span>
             <ChevronDown 
