@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
-import AboutSection from '../components/AboutSection';
 import GallerySection from '../components/GallerySection';
 import ExhibitionsSection from '../components/ExhibitionsSection';
 import ContactSection from '../components/ContactSection';
@@ -18,7 +17,6 @@ const HomePage = () => {
     <div className={`min-h-screen transition-opacity duration-1000 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}>
       <Header />
       <HeroSection />
-      <AboutSection />
       <GallerySection />
       <ExhibitionsSection />
       <ContactSection />
