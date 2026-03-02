@@ -39,7 +39,7 @@ const HeroSection = () => {
         
         <div className="space-y-8 text-lg md:text-2xl text-white max-w-4xl mx-auto mb-16">
           <p className="animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
-            O njemu se zna samo ono što naslutimo. Njegova djela nadilaze tehniku — u njima je prisutnost prostora između misli, između svjetova.
+            Yuri ostaje figura obavijenih tajnom — njegova prisutnost osjeti se kroz djela, ne kroz riječi. Ono što stvara nadilazi samu tehniku i prelazi u sferu gdje se susreću materijalno i eterično, vidljivo i nevidljivo.
           </p>
           <p className="animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
             Koristi <span className="text-white italic">zlato ručno obrađeno po starim renesansnim tehnikama</span>, onako kako su ga pripremali majstori prošlih stoljeća. Spoj ovog plemenitog zlata i tajnog materijala kojeg Yuri miješa u boju stvara nešto nalik na <strong>PRIMA MATERIJU</strong>, splet atoma i molekula koji stvaraju svijet van poznatog svijeta i svojom energijom gotovo nadnaravno ispunjavaju prostor s kojim se je dijelo predodređeno sjediniti.
