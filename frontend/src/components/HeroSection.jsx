@@ -39,10 +39,10 @@ const HeroSection = () => {
         
         <div className="space-y-8 text-lg md:text-2xl text-white max-w-4xl mx-auto mb-16">
           <p className="animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
-            Yuri ostaje figura obavijenih tajnom — njegova prisutnost osjeti se kroz djela, ne kroz riječi. Ono što stvara nadilazi samu tehniku i prelazi u sferu gdje se susreću materijalno i eterično, vidljivo i nevidljivo.
+            Yuri predstavlja rijetkog stvaratelja čiji rad nadilazi konvencionalne okvire suvremene umjetnosti. Njegova djela karakterizira jedinstvena sinteza klasičnih tehnika i inovativnog pristupa materijalima, stvarajući radove koji provociraju duboku kontemplaciju i emocionalni angažman.
           </p>
           <p className="animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
-            Koristi <span className="text-white italic">zlato ručno obrađeno po starim renesansnim tehnikama</span>, onako kako su ga pripremali majstori prošlih stoljeća. Spoj ovog plemenitog zlata i tajnog materijala kojeg Yuri miješa u boju stvara nešto nalik na <strong>PRIMA MATERIJU</strong>, splet atoma i molekula koji stvaraju svijet van poznatog svijeta i svojom energijom gotovo nadnaravno ispunjavaju prostor s kojim se je dijelo predodređeno sjediniti.
+            U radu koristi <span className="text-white italic">zlato ručno obrađeno po starim renesansnim tehnikama</span>, onako kako su ga pripremali majstori prošlih stoljeća. Spoj ovog plemenitog zlata i autorskog tajnog materijala kojeg Yuri miješa u boju stvara nešto nalik na <strong>PRIMA MATERIJU</strong> — kompoziciju čija vizualna i energetska dimenzija transcendira uobičajene granice medija i uspostavlja jedinstvenu vezu s prostorom za koji je djelo namijenjeno.
           </p>
         </div>
 
