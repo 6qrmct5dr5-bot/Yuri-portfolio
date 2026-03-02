@@ -7,7 +7,7 @@ export const firstWork = {
   dimensions: "100 x 100 cm",
   image: "/artwork-1-100.jpg",
   edition: "1/100",
-  description: "Prvo djelo koje otvara legendarnu seriju od 100. Ovo nije samo slika — to je vrata koja se otvaraju samo jednom. Prvi korak u putovanje kroz svjetove koje većina neće nikad vidjeti.",
+  description: "Prvo djelo koje otvara legendarnu seriju od 100. Ovo nije samo slika — to su vrata koja se otvaraju samo jednom. Prvi korak u putovanje kroz svjetove koje većina neće nikad vidjeti.",
   created: "2024",
   status: "Inauguralno djelo"
 };

@@ -78,6 +78,15 @@ const GallerySection = () => {
                 </span>
               </div>
             </div>
+            {/* Image caption */}
+            <div className="mt-3 text-center space-y-1">
+              <p className="text-xs text-white/60 italic">
+                detalj slike 1/100
+              </p>
+              <p className="text-xs text-white/50">
+                Ime slike član ovog ekskluzivnog kluba će dobiti u pismu.
+              </p>
+            </div>
           </div>
 
           {/* Details */}
